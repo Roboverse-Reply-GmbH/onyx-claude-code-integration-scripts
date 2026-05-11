@@ -1,0 +1,17 @@
+# Never commit credentials
+.secrets.json
+*.env
+
+# Node
+node_modules/
+onyx-mcp/node_modules/
+
+# Temp files from DPAPI setup script
+.dpapi-tmp
+
+# Claude Code local session config
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  "name": "onyx-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Stdio-to-SSE MCP proxy for Onyx with DPAPI-encrypted credentials",
+  "main": "proxy.js",
+  "scripts": {
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "~1.10.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": ["win32"]
+}
